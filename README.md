@@ -1,7 +1,35 @@
 FirefoxCleaner
 ==============
 
-FirefoxCleaner is a application, written on Mono. It have all options for cleaning Firefox and can uninstall browser if you want. 
+FirefoxCleaner is a application, written on Mono. It have lots options for cleaning Firefox:
+ - Internet history
+ - Internet Cache
+ - Cookies
+ - Adblock backups
+ - Bookmark backups
+ - Crash reports
+ - Download history
+ - Compact databases
+ - Corrupt SQLites
+ - Extensions log
+ - Logs
+ - Minidumps
+ - Startup Cache
+ - Telemetry
+ - TestPilot error logs
+ - Update logs
+ - Urlclassifier3.sqlite
+ - Webappsstore.sqlite
+ - FlashGot
+ - Lock files
+ - Maintenance Service logs
+ - Updates
+ - Recovered file fragments
+ - Stylish sync backups
+ - Sync logs
+ - Thumbnails
+ - Dump files
+Can uninstall browser if you want. 
 
 Works at Windows and Linux (Tested on Windows 7, XP, Ubuntu 13)
 
