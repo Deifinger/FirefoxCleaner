@@ -1,0 +1,578 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stetic-interface>
+  <configuration>
+    <images-root-path>..</images-root-path>
+  </configuration>
+  <import>
+    <widget-library name="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <widget-library name="../bin/Debug/FirefoxCleaner.exe" internal="true" />
+  </import>
+  <widget class="Gtk.Window" id="FirefoxCleaner.MainWindow" design-size="543 323">
+    <property name="MemberName" />
+    <property name="WidthRequest">525</property>
+    <property name="HeightRequest">288</property>
+    <property name="Title" translatable="yes">FirefoxCleaner</property>
+    <property name="WindowPosition">CenterOnParent</property>
+    <property name="Resizable">False</property>
+    <property name="Gravity">Center</property>
+    <signal name="DeleteEvent" handler="OnDeleteEvent" />
+    <child>
+      <widget class="Gtk.Alignment" id="alignment1">
+        <property name="MemberName" />
+        <property name="BorderWidth">3</property>
+        <child>
+          <widget class="Gtk.Fixed" id="MainPanel">
+            <property name="MemberName" />
+            <property name="HasWindow">False</property>
+            <child>
+              <widget class="Gtk.CheckButton" id="InetHistory">
+                <property name="MemberName" />
+                <property name="Label" translatable="yes">Internet History</property>
+                <property name="DrawIndicator">True</property>
+                <property name="HasLabel">True</property>
+                <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnInetHistoryClicked" />
+              </widget>
+              <packing>
+                <property name="X">4</property>
+                <property name="Y">4</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.CheckButton" id="InetCache">
+                <property name="MemberName" />
+                <property name="Label" translatable="yes">Internet Cache</property>
+                <property name="DrawIndicator">True</property>
+                <property name="HasLabel">True</property>
+                <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnInetCacheClicked" />
+              </widget>
+              <packing>
+                <property name="X">4</property>
+                <property name="Y">24</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.CheckButton" id="Cookies">
+                <property name="MemberName" />
+                <property name="Label" translatable="yes">Cookies</property>
+                <property name="DrawIndicator">True</property>
+                <property name="HasLabel">True</property>
+                <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnCookiesClicked" />
+              </widget>
+              <packing>
+                <property name="X">4</property>
+                <property name="Y">44</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.CheckButton" id="AdblockBackups">
+                <property name="MemberName" />
+                <property name="Label" translatable="yes">Adblock Backups</property>
+                <property name="DrawIndicator">True</property>
+                <property name="HasLabel">True</property>
+                <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnAdblockBackupsClicked" />
+              </widget>
+              <packing>
+                <property name="X">4</property>
+                <property name="Y">64</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.CheckButton" id="BookmarkBackups">
+                <property name="MemberName" />
+                <property name="Label" translatable="yes">Bookmark Backups</property>
+                <property name="DrawIndicator">True</property>
+                <property name="HasLabel">True</property>
+                <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnBookmarkBackupsClicked" />
+              </widget>
+              <packing>
+                <property name="X">4</property>
+                <property name="Y">84</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.CheckButton" id="CrashReports">
+                <property name="MemberName" />
+                <property name="Label" translatable="yes">Crash Reports</property>
+                <property name="DrawIndicator">True</property>
+                <property name="HasLabel">True</property>
+                <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnCrashReportsClicked" />
+              </widget>
+              <packing>
+                <property name="X">4</property>
+                <property name="Y">104</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.CheckButton" id="DownloadHistory">
+                <property name="MemberName" />
+                <property name="Label" translatable="yes">Download History</property>
+                <property name="DrawIndicator">True</property>
+                <property name="HasLabel">True</property>
+                <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnDownloadHistoryClicked" />
+              </widget>
+              <packing>
+                <property name="X">4</property>
+                <property name="Y">124</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.CheckButton" id="FFExtLog">
+                <property name="MemberName" />
+                <property name="Label" translatable="yes">Firefox Extensions Log</property>
+                <property name="DrawIndicator">True</property>
+                <property name="HasLabel">True</property>
+                <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnFFExtLogClicked" />
+              </widget>
+              <packing>
+                <property name="X">4</property>
+                <property name="Y">184</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.CheckButton" id="FFCorruptSQL">
+                <property name="MemberName" />
+                <property name="Label" translatable="yes">Firefox Corrupt SQLites</property>
+                <property name="DrawIndicator">True</property>
+                <property name="HasLabel">True</property>
+                <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnFFCorruptSQLClicked" />
+              </widget>
+              <packing>
+                <property name="X">4</property>
+                <property name="Y">164</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.CheckButton" id="FFLogs">
+                <property name="MemberName" />
+                <property name="Label" translatable="yes">Firefox Logs</property>
+                <property name="DrawIndicator">True</property>
+                <property name="HasLabel">True</property>
+                <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnFFLogsClicked" />
+              </widget>
+              <packing>
+                <property name="X">4</property>
+                <property name="Y">204</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.CheckButton" id="FFMinidumps">
+                <property name="MemberName" />
+                <property name="Label" translatable="yes">Firefox Minidumps</property>
+                <property name="DrawIndicator">True</property>
+                <property name="HasLabel">True</property>
+                <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnFFMinidumpsClicked" />
+              </widget>
+              <packing>
+                <property name="X">4</property>
+                <property name="Y">224</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.CheckButton" id="FFStartupCache">
+                <property name="MemberName" />
+                <property name="Label" translatable="yes">Firefox Startup Cache</property>
+                <property name="DrawIndicator">True</property>
+                <property name="HasLabel">True</property>
+                <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnFFStartupCacheClicked" />
+              </widget>
+              <packing>
+                <property name="X">190</property>
+                <property name="Y">4</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.CheckButton" id="FFTelemetry">
+                <property name="MemberName" />
+                <property name="Label" translatable="yes">Firefox Telemetry</property>
+                <property name="DrawIndicator">True</property>
+                <property name="HasLabel">True</property>
+                <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnFFTelemetryClicked" />
+              </widget>
+              <packing>
+                <property name="X">190</property>
+                <property name="Y">24</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.CheckButton" id="FFurlclassifier3">
+                <property name="MemberName" />
+                <property name="Label" translatable="yes">Firefox urlclassifier3.sqlite</property>
+                <property name="DrawIndicator">True</property>
+                <property name="HasLabel">True</property>
+                <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnFFurlclassifier3Clicked" />
+              </widget>
+              <packing>
+                <property name="X">190</property>
+                <property name="Y">84</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.CheckButton" id="LockFiles">
+                <property name="MemberName" />
+                <property name="Label" translatable="yes">Lock Files</property>
+                <property name="DrawIndicator">True</property>
+                <property name="HasLabel">True</property>
+                <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnLockFilesClicked" />
+              </widget>
+              <packing>
+                <property name="X">190</property>
+                <property name="Y">144</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.CheckButton" id="FFwebappsstore">
+                <property name="MemberName" />
+                <property name="Label" translatable="yes">Firefox webappsstore.sqlite</property>
+                <property name="DrawIndicator">True</property>
+                <property name="HasLabel">True</property>
+                <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnFFwebappsstoreClicked" />
+              </widget>
+              <packing>
+                <property name="X">190</property>
+                <property name="Y">104</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.CheckButton" id="FFTestPilotErrorLogs">
+                <property name="MemberName" />
+                <property name="Label" translatable="yes">Firefox TestPilot Error Logs</property>
+                <property name="DrawIndicator">True</property>
+                <property name="HasLabel">True</property>
+                <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnFFTestPilotErrorLogsClicked" />
+              </widget>
+              <packing>
+                <property name="X">190</property>
+                <property name="Y">44</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.CheckButton" id="FFUpdateLogs">
+                <property name="MemberName" />
+                <property name="Label" translatable="yes">Firefox Update Logs</property>
+                <property name="DrawIndicator">True</property>
+                <property name="HasLabel">True</property>
+                <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnFFUpdateLogsClicked" />
+              </widget>
+              <packing>
+                <property name="X">190</property>
+                <property name="Y">64</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.CheckButton" id="MaintenServLogs">
+                <property name="MemberName" />
+                <property name="Label" translatable="yes">Maintenance Service Logs</property>
+                <property name="DrawIndicator">True</property>
+                <property name="HasLabel">True</property>
+                <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnMaintenServLogsClicked" />
+              </widget>
+              <packing>
+                <property name="X">190</property>
+                <property name="Y">164</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.CheckButton" id="FlashGot">
+                <property name="MemberName" />
+                <property name="Label" translatable="yes">FlashGot</property>
+                <property name="DrawIndicator">True</property>
+                <property name="HasLabel">True</property>
+                <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnFlashGotClicked" />
+              </widget>
+              <packing>
+                <property name="X">190</property>
+                <property name="Y">124</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.CheckButton" id="StylishSyncBackups">
+                <property name="MemberName" />
+                <property name="Label" translatable="yes">Stylish Sync Backups</property>
+                <property name="DrawIndicator">True</property>
+                <property name="HasLabel">True</property>
+                <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnStylishSyncBackupsClicked" />
+              </widget>
+              <packing>
+                <property name="X">190</property>
+                <property name="Y">224</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.CheckButton" id="RecovFileFragments">
+                <property name="MemberName" />
+                <property name="Label" translatable="yes">Recovered File Fragments</property>
+                <property name="DrawIndicator">True</property>
+                <property name="HasLabel">True</property>
+                <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnRecovFileFragmentsClicked" />
+              </widget>
+              <packing>
+                <property name="X">190</property>
+                <property name="Y">204</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.CheckButton" id="Thumbnails">
+                <property name="MemberName" />
+                <property name="Label" translatable="yes">Thumbnails</property>
+                <property name="DrawIndicator">True</property>
+                <property name="HasLabel">True</property>
+                <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnThumbnailsClicked" />
+              </widget>
+              <packing>
+                <property name="X">410</property>
+                <property name="Y">24</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.CheckButton" id="MZUpdates">
+                <property name="MemberName" />
+                <property name="Label" translatable="yes">Mozilla Updates</property>
+                <property name="DrawIndicator">True</property>
+                <property name="HasLabel">True</property>
+                <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnMZUpdatesClicked" />
+              </widget>
+              <packing>
+                <property name="X">190</property>
+                <property name="Y">184</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.CheckButton" id="SyncLogs">
+                <property name="MemberName" />
+                <property name="Label" translatable="yes">Sync Logs</property>
+                <property name="DrawIndicator">True</property>
+                <property name="HasLabel">True</property>
+                <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnSyncLogsClicked" />
+              </widget>
+              <packing>
+                <property name="X">410</property>
+                <property name="Y">4</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.CheckButton" id="CompactDB">
+                <property name="MemberName" />
+                <property name="Label" translatable="yes">Compact Databases</property>
+                <property name="DrawIndicator">True</property>
+                <property name="HasLabel">True</property>
+                <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnCompactDBClicked" />
+              </widget>
+              <packing>
+                <property name="X">4</property>
+                <property name="Y">144</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.CheckButton" id="DumpFiles">
+                <property name="MemberName" />
+                <property name="Label" translatable="yes">Dump Files</property>
+                <property name="DrawIndicator">True</property>
+                <property name="HasLabel">True</property>
+                <property name="UseUnderline">True</property>
+                <property name="FocusOnClick">False</property>
+                <signal name="Clicked" handler="OnDumpFilesClicked" />
+              </widget>
+              <packing>
+                <property name="X">410</property>
+                <property name="Y">44</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Button" id="UninstallFirefoxBtn">
+                <property name="MemberName" />
+                <property name="WidthRequest">155</property>
+                <property name="CanFocus">True</property>
+                <property name="Type">TextOnly</property>
+                <property name="Label" translatable="yes">Uninstall Firefox</property>
+                <property name="UseUnderline">True</property>
+                <signal name="Clicked" handler="OnUninstallFirefoxBtnClicked" />
+              </widget>
+              <packing>
+                <property name="X">4</property>
+                <property name="Y">249</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Button" id="ClearBtn">
+                <property name="MemberName" />
+                <property name="WidthRequest">87</property>
+                <property name="CanFocus">True</property>
+                <property name="Type">TextOnly</property>
+                <property name="Label" translatable="yes">Clear</property>
+                <property name="UseUnderline">True</property>
+                <signal name="Clicked" handler="OnClearBtnClicked" />
+              </widget>
+              <packing>
+                <property name="X">428</property>
+                <property name="Y">249</property>
+              </packing>
+            </child>
+          </widget>
+        </child>
+      </widget>
+    </child>
+  </widget>
+  <widget class="Gtk.Dialog" id="FirefoxCleaner.GetUserPassword" design-size="334 193">
+    <property name="MemberName" />
+    <property name="WidthRequest">334</property>
+    <property name="HeightRequest">190</property>
+    <property name="Title" translatable="yes">Authentication dialog</property>
+    <property name="WindowPosition">CenterOnParent</property>
+    <property name="Modal">True</property>
+    <property name="Resizable">False</property>
+    <property name="Buttons">2</property>
+    <property name="HelpButton">False</property>
+    <signal name="Close" handler="OnClose" />
+    <child internal-child="VBox">
+      <widget class="Gtk.VBox" id="dialog1_VBox">
+        <property name="MemberName" />
+        <property name="WidthRequest">312</property>
+        <property name="BorderWidth">2</property>
+        <child>
+          <widget class="Gtk.Fixed" id="fixed1">
+            <property name="MemberName" />
+            <property name="WidthRequest">312</property>
+            <property name="HeightRequest">120</property>
+            <property name="HasWindow">False</property>
+            <child>
+              <widget class="Gtk.Label" id="label1">
+                <property name="MemberName" />
+                <property name="WidthRequest">312</property>
+                <property name="LabelProp" translatable="yes">To make changes, you must the root password.</property>
+              </widget>
+              <packing>
+                <property name="X">10</property>
+                <property name="Y">10</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Label" id="label2">
+                <property name="MemberName" />
+                <property name="LabelProp" translatable="yes">Enter root's password: </property>
+              </widget>
+              <packing>
+                <property name="X">10</property>
+                <property name="Y">45</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Label" id="label3">
+                <property name="MemberName" />
+                <property name="WidthRequest">312</property>
+                <property name="HeightRequest">69</property>
+                <property name="LabelProp" translatable="yes">CAUTION! For further work of application log in as root in a terminal, please.If you do not started FirefoxCleaner without root's access, please, restart with it.</property>
+                <property name="Wrap">True</property>
+              </widget>
+              <packing>
+                <property name="X">10</property>
+                <property name="Y">75</property>
+              </packing>
+            </child>
+          </widget>
+          <packing>
+            <property name="Position">0</property>
+            <property name="AutoSize">True</property>
+            <property name="Expand">False</property>
+            <property name="Fill">False</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+    <child internal-child="ActionArea">
+      <widget class="Gtk.HButtonBox" id="dialog1_ActionArea">
+        <property name="MemberName" />
+        <property name="Spacing">10</property>
+        <property name="BorderWidth">5</property>
+        <property name="Size">2</property>
+        <property name="LayoutStyle">End</property>
+        <child>
+          <widget class="Gtk.Button" id="buttonCancel">
+            <property name="MemberName" />
+            <property name="CanDefault">True</property>
+            <property name="CanFocus">True</property>
+            <property name="UseStock">True</property>
+            <property name="Type">StockItem</property>
+            <property name="StockId">gtk-cancel</property>
+            <property name="ResponseId">-6</property>
+            <signal name="Clicked" handler="OnButtonCancelClicked" />
+            <property name="label">gtk-cancel</property>
+          </widget>
+          <packing>
+            <property name="Expand">False</property>
+            <property name="Fill">False</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="buttonOk">
+            <property name="MemberName" />
+            <property name="CanDefault">True</property>
+            <property name="CanFocus">True</property>
+            <property name="UseStock">True</property>
+            <property name="Type">StockItem</property>
+            <property name="StockId">gtk-ok</property>
+            <property name="ResponseId">-5</property>
+            <signal name="Clicked" handler="OnButtonOkClicked" />
+            <property name="label">gtk-ok</property>
+          </widget>
+          <packing>
+            <property name="Position">1</property>
+            <property name="Expand">False</property>
+            <property name="Fill">False</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</stetic-interface>

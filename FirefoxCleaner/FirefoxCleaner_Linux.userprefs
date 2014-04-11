@@ -1,0 +1,19 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FirefoxCleaner/MainWindow.cs">
+    <Files>
+      <File FileName="FirefoxCleaner/Cleaner.cs" Line="978" Column="46" />
+      <File FileName="FirefoxCleaner/Additional.cs" Line="119" Column="6" />
+      <File FileName="FirefoxCleaner/GetUserPassword.cs" Line="24" Column="28" />
+      <File FileName="FirefoxCleaner/MainWindow.cs" Line="23" Column="12" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/home/z/Desktop/FirefoxCleaner/FirefoxCleaner/Cleaner.cs" line="152" />
+      <Breakpoint file="/home/z/Desktop/FirefoxCleaner/FirefoxCleaner/Cleaner.cs" line="310" />
+      <Breakpoint file="/home/z/Desktop/FirefoxCleaner/FirefoxCleaner/Cleaner.cs" line="986" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FirefoxCleaner\MainWindow.cs">
+    <Files>
+      <File FileName="FirefoxCleaner\MainWindow.cs" Line="254" Column="4" />
+      <File FileName="FirefoxCleaner\Cleaner.cs" Line="8" Column="30" />
+      <File FileName="FirefoxCleaner\Additional.cs" Line="266" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
