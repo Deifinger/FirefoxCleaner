@@ -29,7 +29,7 @@ FirefoxCleaner is a application, written on Mono. It have lots options for clean
  - Sync logs
  - Thumbnails
  - Dump files
-Can uninstall browser if you want. 
+ - Uninstalling browser 
 
 Works at Windows and Linux (Tested on Windows 7, XP, Ubuntu 13)
 
