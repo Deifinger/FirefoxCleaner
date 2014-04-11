@@ -45,9 +45,15 @@ Linux:
 
 
 Repo legend of root directory:
-FirefoxCleaner - dir - open source project soluction
-FirefoxCleaner_Linux - dir - compiled and ready to work application for Linux systems
-FirefoxCleaner_Windows - dir - compiled and ready to work application for Windows OS
-.gitignore - file - git special file with ignore list
-LICENSE - file - file with MIT license
-README.md - file - special file with repo description
+
+1) FirefoxCleaner - dir - open source project soluction
+
+2) FirefoxCleaner_Linux - dir - compiled and ready to work application for Linux systems
+
+3) FirefoxCleaner_Windows - dir - compiled and ready to work application for Windows OS
+
+4) .gitignore - file - git special file with ignore list
+
+5) LICENSE - file - file with MIT license
+
+6) README.md - file - special file with repo description
