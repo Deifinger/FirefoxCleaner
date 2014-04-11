@@ -1,0 +1,32 @@
+C:\Users\Александр\Documents\Projects\FirefoxCleaner\FirefoxCleaner\bin\Debug\FirefoxCleaner.exe
+C:\Users\Александр\Documents\Projects\FirefoxCleaner\FirefoxCleaner\bin\Debug\FirefoxCleaner.pdb
+C:\Users\Александр\Documents\Projects\FirefoxCleaner\FirefoxCleaner\obj\x86\Debug\FirefoxCleaner.csprojResolveAssemblyReference.cache
+C:\Users\Александр\Documents\Projects\FirefoxCleaner\FirefoxCleaner\obj\x86\Debug\FirefoxCleaner.exe
+C:\Users\Александр\Documents\Projects\FirefoxCleaner\FirefoxCleaner\obj\x86\Debug\FirefoxCleaner.pdb
+C:\Users\Александр\Documents\Projects\FirefoxCleaner\FirefoxCleaner\bin\Debug\FirefoxCleaner.exe.config
+C:\Users\Александр\Documents\Projects\FirefoxCleaner\FirefoxCleaner\bin\Debug\Mono.Data.SqliteClient.dll
+C:\Users\Александр\Documents\Projects\FirefoxCleaner\FirefoxCleaner\bin\Debug\System.Data.SQLite.dll
+C:\Users\Ruslan\Desktop\FirefoxCleaner\FirefoxCleaner\bin\Debug\FirefoxCleaner.exe.config
+C:\Users\Ruslan\Desktop\FirefoxCleaner\FirefoxCleaner\bin\Debug\FirefoxCleaner.exe
+C:\Users\Ruslan\Desktop\FirefoxCleaner\FirefoxCleaner\bin\Debug\FirefoxCleaner.pdb
+C:\Users\Ruslan\Desktop\FirefoxCleaner\FirefoxCleaner\bin\Debug\Mono.Data.SqliteClient.dll
+C:\Users\Ruslan\Desktop\FirefoxCleaner\FirefoxCleaner\bin\Debug\System.Data.SQLite.dll
+C:\Users\Ruslan\Desktop\FirefoxCleaner\FirefoxCleaner\obj\x86\Debug\FirefoxCleaner.csprojResolveAssemblyReference.cache
+C:\Users\Ruslan\Desktop\FirefoxCleaner\FirefoxCleaner\obj\x86\Debug\FirefoxCleaner.exe
+C:\Users\Ruslan\Desktop\FirefoxCleaner\FirefoxCleaner\obj\x86\Debug\FirefoxCleaner.pdb
+C:\Documents and Settings\Администратор\Рабочий стол\FirefoxCleaner\FirefoxCleaner\bin\Debug\FirefoxCleaner.exe.config
+C:\Documents and Settings\Администратор\Рабочий стол\FirefoxCleaner\FirefoxCleaner\obj\x86\Debug\FirefoxCleaner.exe
+C:\Documents and Settings\Администратор\Рабочий стол\FirefoxCleaner\FirefoxCleaner\obj\x86\Debug\FirefoxCleaner.pdb
+C:\Documents and Settings\Администратор\Рабочий стол\FirefoxCleaner\FirefoxCleaner\bin\Debug\FirefoxCleaner.exe
+C:\Documents and Settings\Администратор\Рабочий стол\FirefoxCleaner\FirefoxCleaner\bin\Debug\FirefoxCleaner.pdb
+C:\Documents and Settings\Администратор\Рабочий стол\FirefoxCleaner\FirefoxCleaner\bin\Debug\Mono.Data.SqliteClient.dll
+C:\Documents and Settings\Администратор\Рабочий стол\FirefoxCleaner\FirefoxCleaner\bin\Debug\System.Data.SQLite.dll
+C:\Documents and Settings\Администратор\Рабочий стол\FirefoxCleaner\FirefoxCleaner\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Cделанные задания\Mono\FirefoxCleaner\FirefoxCleaner\bin\Debug\FirefoxCleaner.exe.config
+E:\Cделанные задания\Mono\FirefoxCleaner\FirefoxCleaner\obj\x86\Debug\FirefoxCleaner.exe
+E:\Cделанные задания\Mono\FirefoxCleaner\FirefoxCleaner\obj\x86\Debug\FirefoxCleaner.pdb
+E:\Cделанные задания\Mono\FirefoxCleaner\FirefoxCleaner\bin\Debug\FirefoxCleaner.exe
+E:\Cделанные задания\Mono\FirefoxCleaner\FirefoxCleaner\bin\Debug\FirefoxCleaner.pdb
+E:\Cделанные задания\Mono\FirefoxCleaner\FirefoxCleaner\bin\Debug\Mono.Data.SqliteClient.dll
+E:\Cделанные задания\Mono\FirefoxCleaner\FirefoxCleaner\bin\Debug\System.Data.SQLite.dll
+E:\Cделанные задания\Mono\FirefoxCleaner\FirefoxCleaner\obj\x86\Debug\FirefoxCleaner.csprojResolveAssemblyReference.cache
